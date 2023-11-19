@@ -4,7 +4,7 @@ import requests
 import os
 from twilio.rest import Client
 """ api = "https://api.openweathermap.org/data/2.5/weather"
-api_key = "288ee95f6588ee36b64c295bc2e71d90"
+api_key = "288ee995bc2e71d90"
 weather_params = {
     'lat':51.507351,
     'lon':-0.127758,
@@ -18,8 +18,8 @@ with open('data.json','r') as f:
     content = json.load(f)
     weather_info = content['weather']
     if weather_info[0]['id'] > 700:
-        account_sid = 'AC7c9e1deecc929e9822732c2a8886e5f9'
-        auth_token = '6f8fef7c39eec5b2d9b41a13a719c2cc'
+        account_sid = 'AC7c9e732c2a8886e5f9'
+        auth_token = '6f8fef7a13a719c2cc'
         client = Client(account_sid, auth_token)
 
         message = client.messages \

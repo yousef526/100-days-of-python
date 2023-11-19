@@ -11,7 +11,7 @@ COMPANY_NAME = "Tesla Inc"
 # When STOCK price increase/decreases by 5% between yesterday and
 #  the day before yesterday then print("Get News").
 
-stock_api_key = "HT7FKMUN4SWJWINS"
+stock_api_key = "HT7SWJWINS"
 params_stock = {
     "function":"TIME_SERIES_DAILY",
     "symbol":STOCK,
@@ -28,7 +28,7 @@ send_bool = True if diff >= 0.03 else False
 
 ## STEP 2: Use https://newsapi.org
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME. 
-news_api_key = "acf5da01d937490b846555fff21129c6"
+news_api_key = "acf5da01d937555fff21129c6"
 apiEndpoint = "https://newsapi.org/v2/top-headlines"
 
 news_api_params = {
@@ -45,8 +45,8 @@ articles = news.json()['articles'][:3]
 ## STEP 3: Use https://www.twilio.com
 # Send a seperate message with the percentage change and each article's title and description to your phone number. 
 for article in articles:
-    account_sid = 'AC7c9e1deecc929e9822732c2a8886e5f9'
-    auth_token = '6f8fef7c39eec5b2d9b41a13a719c2cc'
+    account_sid = 'AC7c9e1deec732c2a8886e5f9'
+    auth_token = '6f8fef7c393a719c2cc'
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(

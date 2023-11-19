@@ -3,9 +3,9 @@ from selenium.webdriver.common.by import By
 import time
 from instaFollower import InstaFollower
 
-ID = "01126683149"
-PASSCODE = "mrjudo123"
-SIMILAR_ACCOUNT = "chefsteps"
+ID = "01129"
+PASSCODE = "mr23"
+SIMILAR_ACCOUNT = "cheps"
 
 insta = InstaFollower()
 insta.login(username=ID,passcode=PASSCODE,account=SIMILAR_ACCOUNT)

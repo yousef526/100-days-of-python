@@ -1,0 +1,7 @@
+{'display_name': 'yousef alaa',
+'external_urls': {'spotify': 'https://open.spotify.com/user/31ei3dy3vauocqlas3goqpsrspem'},
+ 'href': 'https://api.spotify.com/v1/users/31ei3dy3vauocqlas3goqpsrspem',
+'id': '31ei3dy3vauocqlas3goqpsrspem',
+ 'images': [],
+  'type': 'user',
+   'uri': 'spotify:user:31ei3dy3vauocqlas3goqpsrspem', 'followers': {'href': None, 'total': 0}}

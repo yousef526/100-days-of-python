@@ -1,0 +1,16 @@
+""" # selenium 4
+from selenium import webdriver
+from selenium.webdriver.edge.service import Service as EdgeService
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+
+driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install())) """
+
+
+options = webdriver.EdgeOptions()
+options.add_experimental_option("detach", True) #to prevent the web from closing instantly
+service = webdriver.EdgeService(executable_path=edge_driver)
+driver = webdriver.Edge(options=options, service=service)
+#driver.maximize_window()
+driver.get('https://stackoverflow.com/questions/68543285/chrome-browser-closes-immediately-after-loading-from-selenium')
+driver.close() #used to close a tab
+driver.quit() #used to close all tabs 

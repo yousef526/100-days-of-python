@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yousef Website</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Hello to big world</h1>
+    <h2>{{5*8}}</h2>
+    <h3>Random Value: {{ num }}</h3>
+</body>
+<a href="{{ url_for('blog',num=3) }}"> link for blog</a>
+<footer>
+    <p>Copyright to year {{ year_now }}</p>
+</footer>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+</head>
+<body>
+<h1>My Library</h1>
+    <ul>
+        {% if cond != 0 %}
+            {% for row in books %}
+                
+                <li>
+                    <a href="{{ url_for('delete',num=row.id) }}">Delete</a>
+                    {{ row.title }}-{{ row.author }}-{{ row.rating }}/10
+                    <a href="{{ url_for('edit',params=row.id) }}">Edit rating</a>
+                </li>
+                
+            {% endfor %}
+        {% else %}
+            <h2>No books added</h2>
+        {% endif %}
+    </ul>
+    
+<a href="{{ url_for('add') }}">Add New Book</a>
+</body>
+</html>

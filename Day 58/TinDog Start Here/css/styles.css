@@ -1,0 +1,184 @@
+body {
+    font-family: 'Montserrat, sans-serif';
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+    margin-bottom: 5%;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: left;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* mobile photo */
+.iphone_img {
+
+    transform: rotate(25deg) ;
+    width: 60%;
+    position: relative;
+    left: 30%;
+
+}
+
+@media (max-width:1020px) {
+    .iphone_img{
+        position: static;
+        transform: rotate(0);
+        padding-top: 10px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+
+/* Navigation bar */
+.navbar-brand {
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-item{
+    padding: 0 0 18px;
+    
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* section features styling */
+
+.h3_features_section_font{
+    font-size: 1.5rem;
+    font-family:"Montserrat-Bold" ;
+    font-weight: bold;
+    padding: 4%;
+    
+}
+
+.feature_section_icons{
+    color: #ef8172;
+}
+
+.feature_section_icons:hover{
+    color: #ff4c68;
+}
+
+.p_features_section_font{
+    color: #8f8f8f;
+    line-height: 1.5;
+    
+}
+
+#features{
+    padding: 10%;
+
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+/*##############################################################*/
+/* testimonials */
+#testimonials{
+    background-color: #ef8172;
+    
+
+    color: white;
+}
+
+
+
+.testimonials_image{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+
+    padding-bottom: 30px;
+}
+
+
+/*top LeftAndRight bottom*/
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+
+/* price section */
+
+#pricing{
+
+    padding: 7% 15%;
+}
+
+.pricing_col{
+    padding: 3% 2%;
+}
+
+/* cta final part */
+
+#cta{
+    background-color: #ff4c68;
+
+    padding: 60px;
+}
+
+.h3_cta{
+    
+    font-family: "Montserrat";
+    color: white;
+    font-size: 4rem;
+    line-height: 1.5;
+    padding: 4%;
+}
+
+/* footer part */
+
+#footer{
+
+    margin: 10% auto 60px;
+    padding-bottom: 20px;
+}
+
+.icon_style{
+    margin:0 10px 20px;
+}

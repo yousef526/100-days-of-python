@@ -1,0 +1,31 @@
+
+/*###########################TAG selector######################*/
+h1{
+  color: red;
+  font-size: 250px
+}
+body{
+  background: lightcyan;
+}
+
+/*cant make hover property if it has id */
+img:hover{
+  background-color: brown;
+}
+
+/*###########################ID selector ######################*/
+.baccon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+/*###########################CLASS selector ######################*/
+/*#baccon{
+  background-color: green;
+}
+
+#broccoli{
+  background-color: red;
+}*/

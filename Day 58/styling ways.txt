@@ -1,0 +1,56 @@
+to combine more than one tag togther with same style
+
+h1,h2,h3{
+	line-highet:32135163;
+	.
+	.
+	.
+	and so on
+}
+
+next is Hierarchical selectors and read from right to left
+
+parent   child
+selector selector
+#title .contrainer{
+	font-size:55rem;
+	.
+	.
+	.
+	and so on
+}
+
+another one
+h1 #title{
+}
+
+another
+.contrainer h1{
+	smth;
+}
+
+combiner selectors and read from left to right and occur to same element
+
+selector1.selector2
+
+ex.
+
+means h1 that has id of title
+h1#title{
+
+}
+
+
+
+
+
+
+prioty
+
+#heading 
+.title
+h1
+
+from these highest priorty is #heading(id) then .title(class) then h1(the html element)
+
+but inline styling has highest priorty on them all

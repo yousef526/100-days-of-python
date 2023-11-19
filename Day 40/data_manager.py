@@ -2,7 +2,7 @@ import requests
 
 
 
-API_SHEETY = "https://api.sheety.co/f9a1db8515fde64af74327d98f8b0324/flightDealsYousef/prices"
+API_SHEETY = "https://api.sheety.co/f9a1d0324ealsYousef/prices"
 
 class DataManager:
     #This class is responsible for talking to the Google Sheet.
@@ -45,7 +45,7 @@ class DataManager:
         response.raise_for_status()
 
     def addUser(self,fname,lastname,email):
-        api = "https://api.sheety.co/f9a1db8515fde64af74327d98f8b0324/flightDealsYousef/users"
+        api = "https://api.sheety.co/f9a1db8515fdeousef/users"
         data = {
             "user": {
                 "firstName": fname,

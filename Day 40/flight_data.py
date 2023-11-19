@@ -3,7 +3,7 @@ from data_manager import DataManager
 
 API = "https://api.tequila.kiwi.com/locations/query"
 APIKEY = {
-    'apikey':"pOXjNk2t-k5wef8VsQApGV8rx5FEyDNl",
+    'apikey':"pOXjNk2t-k5FEyDNl",
 }
 class FlightData:
     #This class is responsible for structuring the flight data.

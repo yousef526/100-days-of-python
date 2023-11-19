@@ -5,7 +5,7 @@ import datetime as dt
 
 API = "https://api.tequila.kiwi.com/v2/search"
 APIKEY = {
-    'apikey':"pOXjNk2t-k5wef8VsQApGV8rx5FEyDNl",
+    'apikey':"pOXjNk2t-k5FEyDNl",
 }
 SRC = "LON"
 

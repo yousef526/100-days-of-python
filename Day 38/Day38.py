@@ -1,12 +1,10 @@
-# nutriion website pass 123456ABDC789!@#$
-# ID: 4a4fb195
-# Key: c30ccdba428591b06db04bf6dccf978e
+
 
 import requests
 import datetime as dt
 
-APPID = "4a4fb195"
-KEY = "c30ccdba428591b06db04bf6dccf978e"
+APPID = "4a195"
+KEY = "c30ccdb06db04bf6dccf978e"
 user = input("Enter your activity: ")
 
 exercise_headers = {

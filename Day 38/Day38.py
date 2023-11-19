@@ -3,8 +3,8 @@
 import requests
 import datetime as dt
 
-APPID = "4a195"
-KEY = "c30ccdb06db04bf6dccf978e"
+APPID = "495"
+KEY = "c30ccf6dccf978e"
 user = input("Enter your activity: ")
 
 exercise_headers = {
